@@ -1,0 +1,305 @@
+/*Helvetica Neue*/
+
+@font-face {
+  font-family: "Helvetica Neue Condensed";
+  src: url("../fonts/HelveticaNeueHelveticaNeueCondensed-Thin.woff2")
+      format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeueCondensed-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueHelveticaNeue-UltraLight.woff2")
+      format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeue-UltraLight.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue Condensed";
+  src: url("../fonts/HelveticaNeueHelveticaNeueCondensed-Heavy.woff2")
+      format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeueCondensed-Heavy.woff")
+      format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueHelveticaNeue-Medium.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeue-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueHelveticaNeue-LightItalic.woff2")
+      format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeue-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueHelveticaNeue-Thin.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeue-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue Condensed";
+  src: url("../fonts/HelveticaNeueHelveticaNeueCondensed-Bold.woff2")
+      format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeueCondensed-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueHelveticaNeue-ThinItalic.woff2")
+      format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeue-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueHelveticaNeue-UltraLightItalic.woff2")
+      format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeue-UltraLightItalic.woff")
+      format("woff");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueHelveticaNeue-BoldItalic.woff2")
+      format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeue-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueHelveticaNeue-Light.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeue-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueHelveticaNeue.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeue.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue Condensed";
+  src: url("../fonts/HelveticaNeueHelveticaNeueCondensed-Light.woff2")
+      format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeueCondensed-Light.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueHelveticaNeue-Bold.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeue-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue Condensed";
+  src: url("../fonts/HelveticaNeueHelveticaNeueCondensed.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeueCondensed.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue Condensed";
+  src: url("../fonts/HelveticaNeueHelveticaNeueCondensed-Medium.woff2")
+      format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeueCondensed-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueHelveticaNeue-Black.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeue-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueHelveticaNeue-Italic.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueHelveticaNeue-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Raleway */
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-MediumItalic.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-ThinItalic.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-ExtraBold.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-LightItalic.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-Light.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-Black.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-Italic.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-ExtraLight.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-SemiBoldItalic.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-SemiBold.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-BoldItalic.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-BlackItalic.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-Regular.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-Bold.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-Thin.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-Medium.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-ExtraLightItalic.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/RalewayRaleway-ExtraBoldItalic.woff2") format("woff2"),
+    url("../fonts/RalewayRaleway-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+}
