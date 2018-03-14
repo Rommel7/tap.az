@@ -14,42 +14,81 @@ body {
   background-color: $primary-white;
 }
 
-.wrpaper {
-  width: 982px;
-  margin: 0 auto;
-}
-.wrapper-fluid {
-  width: 1280px;
-  margin: 0 auto;
+img {
+  object-fit: contain;
 }
 
-header {
-  width: 100%;
+.btn {
+  font-family: $font-Helvetica;
+  background-color: $primary-white;
+  color: $primary-blue;
+  width: 250px;
+  height: 65px;
+  border-radius: 5px;
+  font-size: 23px;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  transition: 0.4s ease-in-out;
+  &:hover {
+    border: none;
+    background-color: #fddd37;
+    color: $primary-black;
+  }
+}
+
+.captionW {
+  font-family: $font-Raleway;
+  color: $primary-white;
+  font-size: 70px;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 21px;
+}
+
+.slogan {
+  color: $primary-white;
+  font-family: $font-Helvetica;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 50px;
+  span::before {
+    content: "\A";
+    white-space: pre;
+  }
+}
+
+// .wrpaper {
+//   width: 982px;
+//   margin: 0 auto;
+// }
+// .wrapper-fluid {
+//   width: 1280px;
+//   margin: 0 auto;
+// }
+
+.header {
   background-color: $primary-blue;
   color: $primary-white;
-  min-height: 35px;
-  padding-bottom: 4em;
+  width: 100%;
+  // min-height: 35px;
+  padding-bottom: 60px 1em;
   // height: 741px;
   .header-top {
-    padding: 2.5em 2.5em;
+    padding: 2.5em 16.5em;
     width: 100%;
     .logo {
       width: 166px;
       height: 35px;
     }
     .lang {
-      color: $primary-white;
-      text-decoration: underline;
       font-family: $font-Helvetica;
+      color: $primary-white;
+      background-color: $primary-blue;
+      text-decoration: underline;
       font-size: 16px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.56;
-      letter-spacing: normal;
       text-align: left;
       float: right;
-      background-color: $primary-blue;
       border: none;
       cursor: pointer;
       -webkit-appearance: none;
@@ -66,47 +105,6 @@ header {
     width: 100%;
     display: flex;
     .headline {
-      .caption {
-        font-family: $font-Raleway;
-        font-size: 70px;
-        font-weight: 900;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.21;
-        letter-spacing: normal;
-        text-align: left;
-        margin-bottom: 21px;
-      }
-      .slogan {
-        font-family: $font-Helvetica;
-        font-size: 20px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.25;
-        letter-spacing: normal;
-        text-align: left;
-        margin-bottom: 50px;
-        span::before {
-          content: "\A";
-          white-space: pre;
-        }
-      }
-      .btn {
-        width: 250px;
-        height: 65px;
-        border-radius: 5px;
-        background-color: $primary-white;
-        font-family: $font-Helvetica;
-        font-size: 23px;
-        font-weight: 600;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.09;
-        letter-spacing: normal;
-        text-align: center;
-        color: $primary-blue;
-      }
     }
     .rocket {
       width: 478px;
@@ -122,10 +120,7 @@ header {
     font-family: $font-Raleway;
     font-size: 60px;
     font-weight: 800;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.21;
-    letter-spacing: normal;
+
     text-align: left;
     margin: 80px 0px;
     span::before {
@@ -151,23 +146,111 @@ header {
         font-family: $font-Helvetica;
         font-size: 20px;
         font-weight: bold;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 1.25;
-        letter-spacing: normal;
+
         text-align: left;
         color: #0075ff;
       }
       .text {
         font-family: $font-Helvetica;
         font-size: 16px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
+
         line-height: 1.38;
-        letter-spacing: normal;
+
         text-align: left;
         color: $primary-black;
+      }
+    }
+  }
+}
+
+.content {
+  background-color: #fddd37;
+  .fill {
+    margin-top: 52px;
+    object-fit: contain;
+    transform: rotate(4deg);
+    transition: 1s ease;
+    &:hover {
+      transform: rotate(10deg);
+    }
+  }
+  .caption {
+    font-family: $font-Raleway;
+    color: $primary-black;
+    width: 430px;
+    height: 260px;
+    font-size: 55px;
+    font-weight: 800;
+    text-align: left;
+  }
+  .laptop {
+  }
+}
+
+.form {
+  background-color: $primary-blue;
+  padding: 130px 0px;
+  .slogan {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  .form-control {
+    color: $primary-white;
+    height: 55px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-size: 23px;
+    background-color: #2d8dff;
+    &::placeholder {
+      color: $primary-white;
+      font-family: $font-Helvetica;
+      font-size: 23px;
+      text-align: left;
+      text-indent: 0px;
+      transition: text-indent 0.3s ease;
+    }
+    &:focus::placeholder {
+      text-indent: 520px;
+      transition: text-indent 0.3s ease;
+    }
+  }
+  .btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+}
+.footer {
+  padding: 2.5em 12em;
+  .flex-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    .link {
+      font-family: $font-Helvetica;
+      color: $primary-grey;
+      font-size: 16px;
+      text-decoration: none;
+      line-height: 63px;
+      cursor: pointer;
+    }
+    .icon-ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      .icons {
+        color: $primary-grey;
+        display: inline-block;
+        margin: 0em 1em;
+        font-size: 21px;
+        line-height: 63px;
+        transition: 0.4s ease;
+        cursor: pointer;
+        &:hover {
+        cursor: pointer;
+          transform: translate3d(0%, -15%, 0);
+        }
       }
     }
   }
