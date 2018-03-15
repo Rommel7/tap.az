@@ -1,5 +1,12 @@
 /* Fonts */
 @import "fonts.scss";
+// Custom Bootsrap
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/forms";
+@import "node_modules/bootstrap/scss/utilities";
+@import "node_modules/bootstrap/scss/bootstrap-grid.scss";
 
 // Varibles
 $primary-white: #fff;
@@ -9,25 +16,22 @@ $primary-grey: #9b9b9b;
 $font-Raleway: "Raleway", sans-serif;
 $font-Helvetica: "Helvetica Neue", sans-serif;
 
+/*Global*/
 .display-flex {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-
 .container-fluid {
   max-width: 1280px;
   margin: 0 auto;
 }
-
 body {
   background-color: $primary-white;
 }
-
 img {
   object-fit: contain;
 }
-
 .btn {
   font-family: $font-Helvetica;
   background-color: $primary-white;
@@ -40,13 +44,13 @@ img {
   text-align: center;
   border: none;
   transition: 0.4s ease-in-out;
+  cursor: pointer;
   &:hover {
     border: none;
     background-color: #fddd37;
     color: $primary-black;
   }
 }
-
 .captionW {
   font-family: $font-Raleway;
   color: $primary-white;
@@ -55,7 +59,6 @@ img {
   text-align: left;
   margin-bottom: 21px;
 }
-
 .slogan {
   color: $primary-white;
   font-family: $font-Helvetica;
@@ -68,22 +71,14 @@ img {
   }
 }
 
-// .wrpaper {
-//   width: 982px;
-//   margin: 0 auto;
-// }
-// .wrapper-fluid {
-//   width: 1280px;
-//   margin: 0 auto;
-// }
-
+/*Header*/
 .header {
   background-color: $primary-blue;
   color: $primary-white;
   width: 100%;
   padding-bottom: 60px 1em;
   .header-top {
-    padding: 2.5em 2.5em;
+    padding: 3.5em 2.5em;
     .logo {
       width: 166px;
       height: 35px;
@@ -120,14 +115,13 @@ img {
     }
   }
 }
-
+/*Services Section*/
 .services {
   .caption {
     width: 100%;
     font-family: $font-Raleway;
     font-size: 60px;
     font-weight: 800;
-
     text-align: left;
     margin: 80px 0px;
     span::before {
@@ -144,7 +138,6 @@ img {
       width: 221px;
       text-align: left;
       margin-bottom: 80px;
-
       .svg-cards {
         height: 60px;
         margin-bottom: 25px;
@@ -153,25 +146,23 @@ img {
         font-family: $font-Helvetica;
         font-size: 20px;
         font-weight: bold;
-
         text-align: left;
         color: #0075ff;
       }
       .text {
         font-family: $font-Helvetica;
         font-size: 16px;
-
         line-height: 1.38;
-
         text-align: left;
         color: $primary-black;
       }
     }
   }
 }
-
+/*Content Section*/
 .content {
   background-color: #fddd37;
+  padding-bottom: 10em;
   .fill {
     margin-top: 52px;
     object-fit: contain;
@@ -187,11 +178,18 @@ img {
     font-size: 55px;
     font-weight: 800;
     text-align: left;
+    span::before {
+      content: "\A";
+      white-space: pre;
+    }
   }
   .laptop {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5em;
   }
 }
-
+/*Form Section*/
 .form {
   background-color: $primary-blue;
   padding: 130px 0px;
@@ -226,6 +224,7 @@ img {
     margin-top: 35px;
   }
 }
+/*Footer*/
 .footer {
   padding: 2.5em 2.5em;
   .display-flex {
@@ -263,5 +262,5 @@ img {
     }
   }
 }
-
+/*Media Queries*/
 @import "responsive.scss";
