@@ -1,0 +1,147 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .header .header-main {
+    flex-wrap: wrap;
+    text-align: center;
+    .captionW {
+      text-align: center;
+    }
+    .slogan {
+      text-align: center;
+    }
+    .rocket {
+      margin: 0 auto;
+      margin-top: 5em;
+      position: relative;
+      img {
+        position: absolute;
+        left: -25%;
+      }
+    }
+  }
+  .services {
+    .caption {
+      text-align: center;
+    }
+  }
+  .content {
+    padding: 5em 0em;
+    .fill {
+      display: none;
+    }
+    .laptop {
+      display: flex;
+      justify-content: center;
+      img {
+        margin-right: 10%;
+      }
+    }
+    .caption {
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 1em;
+    }
+  }
+  .form {
+    .captionW {
+      text-align: center;
+    }
+    .slogan {
+      text-align: center;
+    }
+    .btn {
+      margin-top: 4em;
+    }
+  }
+  .footer {
+    .display-flex {
+      display: block;
+      text-align: center;
+    }
+    display: block;
+    text-align: center;
+    .flex-item {
+      display: block;
+    }
+    .link {
+      margin: 0em 1em;
+    }
+    .icon-ul {
+      display: block;
+      padding: 0;
+    }
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .services {
+    .cards {
+      margin: 0 auto;
+      display: block;
+      &__item {
+        text-align: center;
+        .title {
+          text-align: center;
+        }
+        .text {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .captionW {
+    font-size: 60px;
+  }
+  .caption {
+    font-size: 50px;
+  }
+  .services {
+    .cards {
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .rocket {
+    display: none;
+  }
+  .header .btn {
+    margin-bottom: 3em;
+  }
+  .services {
+    .cards {
+      margin: 0 auto;
+      display: block;
+    }
+    .caption {
+      font-size: 40px;
+    }
+  }
+  .captionW {
+    font-size: 40px;
+  }
+  .caption {
+    font-size: 40px;
+  }
+  .content .caption {
+    font-size: 40px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .captionW {
+    font-size: 30px;
+  }
+  .caption {
+    font-size: 30px;
+  }
+}
